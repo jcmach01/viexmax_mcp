@@ -528,4 +528,4 @@ async def viewmax_check_task_status(params: CheckTaskStatusInput) -> str:
         }, indent=2)
 
 if __name__ == "__main__":
-    mcp.run(transport="streamable_http")
+    mcp.run()
