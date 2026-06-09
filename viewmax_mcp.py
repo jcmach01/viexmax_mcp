@@ -528,6 +528,4 @@ async def viewmax_check_task_status(params: CheckTaskStatusInput) -> str:
         }, indent=2)
 
 if __name__ == "__main__":
-    import os
-    port = int(os.getenv("PORT", 8000))
-    mcp.run(transport="streamable_http", port=port)
+    mcp.run(transport="streamable_http")
