@@ -1,1 +1,0 @@
-web: python viewmax_mcp.py
